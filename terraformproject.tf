@@ -12,7 +12,7 @@ provider "aws" {
   secret_key = var.secret_key
 }
 resource "aws_instance" "yourec2" {
-  ami                    = "terraform {
+  ami                    = "ami-0f403e3180720dd7e " 
   required_version = "~> 1.1"
   required_providers {
     aws = {
