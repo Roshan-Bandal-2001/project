@@ -31,8 +31,8 @@ resource "aws_instance" "yourec2" {
   tags = {
     Name = "terraform-inst"
   }
-}
- 
+
+} 
 variable "access_key" { }
 variable "secret_key" { }
 variable "region_name" {
